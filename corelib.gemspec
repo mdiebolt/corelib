@@ -13,6 +13,6 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "corelib"
 
-  s.files         = "https://raw.github.com/STRd6/corelib/pixie/corelib.js"
+  s.files         = `git ls-files`.split("\n")
   s.require_paths = ["lib"]
 end
